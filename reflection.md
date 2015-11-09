@@ -1,4 +1,4 @@
-[My live site!](albhahn.github.io/index.html)
+[My live site!](http://albhahn.github.io/index.html)
 
 ##What did you learn about CSS padding, borders, and margin by doing this challenge?##
 I learned that knowing how to format each one is incredibly vital to sizing every element in CSS and how sensitive they can all be when attempting to display them the way that you'd like.
