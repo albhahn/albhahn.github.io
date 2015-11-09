@@ -1,0 +1,32 @@
+* {
+  font-family: arial;
+}
+
+header {
+  text-align: center;
+  border: 2px solid gray;
+}
+
+footer {
+  vertical-align: bottom;
+  text-align: center;
+  border: 2px solid gray;
+}
+
+section nav ul li {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 10%;
+  margin-left: 100px;
+}
+
+img {
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
