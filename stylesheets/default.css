@@ -1,16 +1,18 @@
 * {
+  color: #404040;
   font-family: arial;
+  background-color: #75a3a3;
 }
 
 header {
   text-align: center;
-  border: 2px solid gray;
+  border: 2px solid #993333;
 }
 
 footer {
   vertical-align: bottom;
   text-align: center;
-  border: 2px solid gray;
+  border: 2px solid #993333;
 }
 
 section nav ul li {
@@ -29,4 +31,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+a {
+  color: #e5e600;
 }
