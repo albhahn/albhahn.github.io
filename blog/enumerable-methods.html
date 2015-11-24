@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+  <title> Enumerable Methods! </title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link type="text/css" rel="stylesheet" href="../stylesheets/blog.css" />
+</head>
+
+<body>
+  <h2> Enumerable Methods! </h2>
+  <h4>11-21-2015</h4>
+
+  <section>
+    <p>
+      We've learned this week how useful enumerable methods can be, in particular, with iterating. Meaning they go through a collection of elements and "do" something to each of those elements.
+    </p>
+    </p>
+      I'll be further explaining a couple examples here. Enumerable method "Count", which is to safe to assume, will count the number of things in the given collection. Here's a bit more complex enumerable method: "each_slice", which will iterate through and "slice" every requested number of elements, where you can pass in a block to "do" something at every slice. Below is an example of how you can "slice" a group into groups of 3 and return them as an array.
+    </p>
+
+        <div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">def</span> <span style="color: #0066BB; font-weight: bold">groups_of_3</span>(argument)
+        array <span style="color: #333333">=</span> <span style="color: #333333">[]</span>
+        argument<span style="color: #333333">.</span>each_slice(<span style="color: #0000DD; font-weight: bold">3</span>) { <span style="color: #333333">|</span>x<span style="color: #333333">|</span> array<span style="color: #333333">.</span>push(x) }
+        array
+<span style="color: #008800; font-weight: bold">end</span>
+</pre></div>
+
+  </section>
+</body>
