@@ -36,3 +36,9 @@ img {
 a {
   color: #e5e600;
 }
+
+.about-section {
+  font-size: 19px;
+  text-align: center;
+  list-style-type: none;
+}
