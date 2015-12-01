@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+  <title> Have some class! </title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link type="text/css" rel="stylesheet" href="../stylesheets/blog.css" />
+</head>
+
+<body>
+  <h2> Have some class! </h2>
+  <h4>11-28-2015</h4>
+
+  <section>
+    <p>
+      This week, we got to learn how to create a class and everything that comes with it, like an instance variable. You can think of a class like a blueprint from which individual objects are created. For instance, a String is a class for "Hi" or "word" and a Fixnum is a class for a number.
+    </p>
+    </p>
+      First thing you want to do when creating a class, is define it. You can do so like you would "def" a method, the main difference is you must capitalize the class Name. Once you name your class, you need to define a method "initialize", which is the constructor. This allows you to create a new instance of your class. We can now define other instance methods to do something for our class. If you look at my example below, I've created the class "Dog", defined a method "initialize" which will take in a name for my dog, and created a method for my dog to "bark".
+    </p>
+      <div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">class</span> <span style="color: #BB0066; font-weight: bold">Dog</span>
+  <span style="color: #008800; font-weight: bold">def</span> <span style="color: #0066BB; font-weight: bold">initialize</span>(<span style="color: #007020">name</span>)
+    <span style="color: #3333BB">@name</span> <span style="color: #333333">=</span> <span style="color: #007020">name</span>
+  <span style="color: #008800; font-weight: bold">end</span>
+
+  <span style="color: #008800; font-weight: bold">def</span> <span style="color: #0066BB; font-weight: bold">bark</span>
+    <span style="color: #007020">puts</span> <span style="background-color: #fff0f0">&quot;Ruff-Ruff!&quot;</span>
+  <span style="color: #008800; font-weight: bold">end</span>
+<span style="color: #008800; font-weight: bold">end</span>
+</pre></div>
+
+    </p>
+      Now the next example below will show you how to create a new instance of dog, and have that dog "bark". Lets say my dogs name was "Fido":
+    </p>
+
+      <div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">fido <span style="color: #333333">=</span> <span style="color: #003366; font-weight: bold">Dog</span><span style="color: #333333">.</span>new(<span style="background-color: #fff0f0">&quot;Fido&quot;</span>)
+fido<span style="color: #333333">.</span>bark
+</pre></div>
+
+    <p>
+      There are a ton of things you can do with classes and be very flexible with instance methods/variables. Although this was a small example, I hope this was helpful to you in some way of undestanding how classes work. Practice makes perfect and coding is no exception, so my best advice with classes is to simply practice writing them and instantiating between them!
+    </p>
+
+  </section>
+</body>
