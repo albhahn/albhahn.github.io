@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <title>JavaScript Objects Compared to Ruby Hashes!</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link type="text/css" rel="stylesheet" href="../stylesheets/blog.css" />
+</head>
+
+<body>
+  <h2>JavaScript Objects Compared to Ruby Hashes!</h2>
+  <h4>12-06-2015</h4>
+
+  <section>
+    <p>
+      This week, we dove right into learning JavaScript. One of the first things I noticed, was that they are very similar, yet still different. An example of their similarities can be Javascript objects compared to Ruby hashes, but their differences will show in syntax.
+    </p>
+    </p>
+      In Ruby, we create a hash by simply declaring it a name and setting it to key/value pairs inside of braces ( { and } ). In Javascript, we create an object in a very similar way, but a main difference is instead of just declaring a name, we define it to a variable and use "properties" as the key/value pairs. Now one of the benefits JavaScript has over Ruby in this situation, is that you can have "functions" inside of properties. Below are examples of their syntax so you can have a visual image of both how similar and different they are (included a function as a property for Javascript).
+    </p>
+    <p> Ruby: </p>
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">hash_name <span style="color: #333333">=</span> {
+  key_name: value,
+  key2_name: second_value,
+  key3_name: third_value
+}
+</pre></div>
+
+
+
+    <p> JavaScript: </p>
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">var</span> objectName <span style="color: #333333">=</span> {
+  prop_name<span style="color: #333333">:</span> value,
+  prop2_name<span style="color: #333333">:</span> second_value,
+  functionName<span style="color: #333333">:</span> <span style="color: #008800; font-weight: bold">function</span>() {
+    console.log(<span style="background-color: #fff0f0">&quot;Functions actually do something&quot;</span>);
+  }
+}
+</pre></div>
+
+  </section>
+</body>
