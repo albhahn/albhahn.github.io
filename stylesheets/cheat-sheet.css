@@ -1,0 +1,21 @@
+* {
+  color: #404040;
+  font-family: arial;
+  background-color: #75a3a3;
+}
+
+.main-section {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+code {
+  color: yellow;
+}
+
+header {
+  border-bottom: 2px solid black;
+}
